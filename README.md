@@ -7,7 +7,8 @@ https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
 I wrote everything in java
 
         
-        //Standard solution:
+Standard solution:
+        
         // I put everyhting in an arraylist I remove the 4 element from that list
         // boom, one pass.
 
@@ -23,5 +24,5 @@ I wrote everything in java
         nodes.get(nodes.size()-n-1).next = nodes.get(nodes.size()-n).next;
         return head;
 
-        //BlazeIt solution:
+BlazeIt solution:
         
